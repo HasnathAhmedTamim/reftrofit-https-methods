@@ -12,7 +12,7 @@ import com.example.jsonplaceholderpractice.utils.Resource
 
 interface PostRepository{
     // Get all posts from API
-    suspend fun getPosts(): Resource<List<Post>>
+    suspend fun getAllPosts(): Resource<List<Post>>
 
     // Get single post by ID
     suspend fun getPostById(postId: Int): Resource<Post>

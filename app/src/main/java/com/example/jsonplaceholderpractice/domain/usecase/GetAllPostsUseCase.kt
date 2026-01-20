@@ -15,6 +15,6 @@ class GetAllPostsUseCase(
     private  val repository: PostRepository
 ){
     suspend operator fun invoke(): Resource<List<Post>> {
-        return repository.getPosts()
+        return repository.getAllPosts()
     }
 }
