@@ -372,7 +372,7 @@ This project is for educational purposes. Feel free to use it as a reference or 
 
 ## 👤 Author
 
-**Your Name**  
+**Hasnath Ahmed Tamim**  
 Learning Android Development with Clean Architecture
 
 ---
