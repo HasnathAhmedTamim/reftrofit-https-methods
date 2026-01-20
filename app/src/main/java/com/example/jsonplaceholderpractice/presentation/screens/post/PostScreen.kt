@@ -42,7 +42,7 @@ fun PostScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp)
+            .padding(36.dp)
     ) {
         // === HEADER ===
         Text(
