@@ -15,7 +15,7 @@ class PostRepositoryImpl : PostRepository {
     override suspend fun getAllPosts(): Resource<List<Post>> {
         return try {
             // Use the correct API method name (getPosts)
-            val response = api.getAllPosts()
+            val response = api.getPosts()
 
             // Map DTOs to domain models
             // Convert List<PostDto> to List<Post>
