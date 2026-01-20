@@ -20,7 +20,7 @@ sealed class Resource<T>(
 }
 
 /**
- * we can easily handle success,
+ * Wraps api response so we can easily handle success,
  * errors, and
  * loading states
  * without throwing exceptions everywhere.
